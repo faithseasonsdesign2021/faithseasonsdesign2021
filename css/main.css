@@ -22,9 +22,7 @@
     display:flex;
     align-items:center;
 }
-.lg-inner-nav-wrapper{
-    height:60px;
-}
+
 
 .lg-logo-wrapper,.lg-nav-items-wrapper{
     display:flex;   
@@ -32,7 +30,26 @@
 .lg-nav-items-wrapper{
     flex:1;
 }
+.sm-logo-wrapper,.sm-button-wrapper{
+    display:flex;
+}
+.sm-inner-nav-wrapper{
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+}
+.fa-bars{
+    font-size:35pt !important;
+}
 
+@media screen and (max-width:990px){
+    .lg-nav-wrapper{
+        display:none !important;
+    }
+    .sm-nav-wrapper{
+        display:block !important;
+    }
+}
 
 @media screen and (max-width:767px){
     .top-footer-wrapper{
