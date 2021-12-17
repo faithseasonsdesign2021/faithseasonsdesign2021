@@ -1,5 +1,3 @@
-
-
 function navigationButton(){
     $('.navigation-button').click(function(){
         $(".navigation-list-outer-wrapper").slideToggle(400);
